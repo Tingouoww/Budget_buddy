@@ -1,9 +1,11 @@
 package com.ting.dao;
 
+import com.ting.model.Transaction;
+
 import java.util.List;
 
 // 定義交易資料庫操作方法
-// interfave : 只定義 [有哪些方法]，不會實作內容
+// interface : 只定義 [有哪些方法]，不會實作內容
 // Data Access Object
 public interface TransactionDAO {
     void addTransaction(Transaction transaction); //新增
